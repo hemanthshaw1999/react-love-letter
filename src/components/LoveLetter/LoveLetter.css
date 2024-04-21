@@ -3,7 +3,7 @@
 .envelope {
     position: relative;
     width: 600px;
-    height: 400px;
+    height: 500px;
     margin: 50px auto;
     cursor: pointer;
     perspective: 1000px;
@@ -69,5 +69,18 @@
     opacity: 1;
     z-index: -2;
     transform: scale(1);  /* Scale up if necessary */
+  }
+  
+
+  .letter {
+    padding: 20px; /* Padding for breathing room */
+    font-family: 'Courier New', Courier, monospace; /* Change to a more stylish font */
+    font-size: 16px; /* Comfortable font size */
+    text-align: center; /* Center align text */
+    border-radius: 10px; /* Rounded corners for softer edges */
+  }
+  
+  .letter.fullSize {
+    width: 100%; /* Full width for fullSize mode */
   }
   
