@@ -35,11 +35,17 @@ const LoveLetter = () => {
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
-        mah dear kundanapu bomma🖤,<br />
-        never have i been so blessed as to fall in love with someone as wonderful as you...<br />i loveeee youuuu :)<br />
-        always yours,<br />
-        @niihaaarrrr
-      </div>
+  Hey babe ❤️,<br />
+  Every moment with you feels like a dream I never want to wake from. 🌟<br />
+  Your smile brightens my darkest days, and your laugh is the sweetest melody my heart has ever heard. 🎶<br />
+  I could spend a lifetime getting lost in your eyes, and it still wouldn't be enough. 💖<br />
+  You make everything better just by being you... 🌈<br />
+  I love you, bae! 💕<br />
+  Always yours,<br />
+  @hemanth 💌
+<br/>
+</div>
+
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
   );
