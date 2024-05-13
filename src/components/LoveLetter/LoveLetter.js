@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import './LoveLetter.css';
-import audioFile from './kushi.mp3';
+import audioFile from './darling_bgm.mp3';
 
 const LoveLetter = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,14 +35,14 @@ const LoveLetter = () => {
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
-  Hey babe ❤️,<br />
-  Every moment with you feels like a dream I never want to wake from. 🌟<br />
-  Your smile brightens my darkest days, and your laugh is the sweetest melody my heart has ever heard. 🎶<br />
-  I could spend a lifetime getting lost in your eyes, and it still wouldn't be enough. 💖<br />
-  You make everything better just by being you... 🌈<br />
-  I love you, bae! 💕<br />
+  As you celebrate another trip around the sun, 
+  I take the opportunity to celebrate you not just your birth but also the incredible person you've become. Your presence in my life is a gift beyond measure.I find myself overwhelmed with gratitude for the blessing of your presence in my life. 
+  To the man who has stood by my side through thick and thin, here's to celebrating you today and every day.
+  Special people like you deserve nothing less than an extraordinary birthday.May your day be filled with unforgettable moments, love, laughter and endless happiness. 
+  Happy Birthday Harsha💕<br />
   Always yours,<br />
-  @hemanth 💌
+  @love 💌<br />
+  <br />
 <br/>
 </div>
 
