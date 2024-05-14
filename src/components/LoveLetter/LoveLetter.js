@@ -35,18 +35,19 @@ const LoveLetter = () => {
       <div className="flap"></div>
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
-  As you celebrate another trip around the sun, 
-  I take the opportunity to celebrate you not just your birth but also the incredible person you've become. Your presence in my life is a gift beyond measure.I find myself overwhelmed with gratitude for the blessing of your presence in my life. 
-  To the man who has stood by my side through thick and thin, here's to celebrating you today and every day.
-  Special people like you deserve nothing less than an extraordinary birthday.May your day be filled with unforgettable moments, love, laughter and endless happiness. 
-  Happy Birthday Harsha💕<br />
-  Always yours,<br />
-  @love 💌<br />
-  <br />
-<br/>
-</div>
+        <p className="love-letter">
+          As you celebrate another trip around the sun, 
+          I take the opportunity to celebrate you not just your birth but also the incredible person you've become. Your presence in my life is a gift beyond measure. 
+          I find myself overwhelmed with gratitude for the blessing of your presence in my life. 
+          To the man who has stood by my side through thick and thin, here's to celebrating you today and every day. 
+          Special people like you deserve nothing less than an extraordinary birthday. May your day be filled with unforgettable moments, love, laughter, and endless happiness. <br/>
+          Happy Birthday Harsha💕<br />
+          Always yours,<br />
+          @love 💌<br />
+        </p>
+      </div>
 
-      <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
+      <audio ref={audioRef} src={audioFile} loop onError={(e) => console.error('Audio error:', e.message)} />
     </div>
   );
 };
