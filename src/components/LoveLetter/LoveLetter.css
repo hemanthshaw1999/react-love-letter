@@ -1,4 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.love-letter {
+  font-family: 'Parisienne', cursive;
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: 500; /* Adjust the font weight for thickness */
+  color: #333; /* Adjust the text color as needed */
+  line-height: 1.25; /* Adjust the line height as needed */
+}
+
+
+/* Your other styles here */
 
 .envelope {
     position: relative;
